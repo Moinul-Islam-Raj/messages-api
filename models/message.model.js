@@ -8,6 +8,11 @@ const messageSchema = new mongoose.Schema({
     username:{
         type:String,
         default:"unknown"
+    },
+    fileData:String,
+    messageType:{
+        type:String,
+        default:"text"
     }
 },
 {

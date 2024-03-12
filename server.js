@@ -19,8 +19,8 @@ app.use('/api/messages', messageRouter);
 mongoose.connect(process.env.CONNECTION_STRING)
 .then(() => {
     console.log("Succesfully connected to mongoDB!");
-    app.listen(5500, () => {
-        console.log("Server is running at port 5500");
+    app.listen(6969, () => {
+        console.log("Server is running at port 6969");
     })
 })
 .catch((e) => {
